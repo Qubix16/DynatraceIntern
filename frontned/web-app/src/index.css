@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.main{
+  padding-bottom: 20px;
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.main_left_section{
+  display: inline-block;
+  margin: 1%;
+  width: 63%;
+}
+
+.main_left_section_title{
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.main_left_section_desc{
+  text-align: left;
+  padding: 20px;
+  padding-left: 10px;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.main_left_section_input_box{
+  background-color: rgb(253, 253, 255);
+}
+
+.main_left_section_input_box_inputs{
+  width:50%;
+  display: inline-block;
+  background-color: rgb(255, 255, 255);
+}
+
+input{
+  color: rgb(0, 0, 0);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  display: inline-block;
+
+}
+
+.main_left_section_input_box_info{
+  display: inline-block;
+  width: 160px;
+  border-left: 1px solid rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(0, 0, 0);
+  padding: 14px 20px;
+  margin: 8px 0;
+}
+
+.main_left_section_button{
+  width:50%;
+  display: inline-block;
+  
+}
+
+button{
+  background-color: #959595;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin: 0;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+button:hover {
+  background-color: #00aacc;
+  color: #ffffff;
+}
+
+button:disabled,
+button[disabled]{
+  background-color: black;
+  color: #6e6c6c;
+  cursor: default;
+}
+
+.main_right_section{
+  display: inline-block;
+  width: 35%;
+  height: 100%;
+}
+
+.main_right_section_text{
+  height: 5%;
+  
+}
+
+.main_right_section_text_error{
+  color: red;
+}
+
+.main_right_section_result{
+  height: 90%;
+  font-size: 150px;
+  width: 100%;
+}
+
+.main_right_section_result span{
+  font-size: 50px;
+}
