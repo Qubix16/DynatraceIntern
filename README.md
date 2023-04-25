@@ -1,5 +1,7 @@
 # DynatraceIntern
 This is a repository containing mini web project for Dynatrace Internship Application
+<br>
+Description of project: https://github.com/joaquinfilipic-dynatrace/gdn-internship-2023
 
 To run project:
 
